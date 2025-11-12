@@ -1,0 +1,28 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "1234"
+  ],
+  "homepage": "https://github.com/Anam-Parwez-code/Node#readme",
+  "bugs": {
+    "url": "https://github.com/Anam-Parwez-code/Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anam-Parwez-code/Node.git"
+  },
+  "license": "ISC",
+  "author": "Anam Parwez",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "color": "^5.0.2",
+    "nodemon": "^3.1.11"
+  }
+}
