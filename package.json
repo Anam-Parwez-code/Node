@@ -16,10 +16,10 @@
   "license": "ISC",
   "author": "Anam Parwez",
   "type": "commonjs",
-  "main": "server.js",
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodeman form.js"
   },
   "dependencies": {
     "color": "^5.0.2",
