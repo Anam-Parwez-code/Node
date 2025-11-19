@@ -23,7 +23,7 @@ http.createServer((req,resp)=>{
             let readableData=querystring.parse(rowdata);
             let datastring="My name is"+readableData.name+"and my email id is:"+readableData.email;
             console.log(datastring);
-            fs.writeFileSync("/text"+readableData.name+".txt",datastring);
+            fs.writeFileSync("text/"+readableData.name+".txt",datastring);
             console.log("File Created");
           })
             resp.write('Form submitted')
